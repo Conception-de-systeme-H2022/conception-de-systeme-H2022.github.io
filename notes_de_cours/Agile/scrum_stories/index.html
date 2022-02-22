@@ -8,21 +8,21 @@
       
       
       
-        <link rel="canonical" href="https://example.com/notes_de_cours/La%20m%C3%A9thode%20Agile/">
+        <link rel="canonical" href="https://example.com/notes_de_cours/Agile/scrum_stories/">
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
     
     
       
-        <title>La méthode Agile - Conception de système</title>
+        <title>Initiative, Epic et Users Stories - Conception de système</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.6e60f8b8.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6e60f8b8.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.e6a45f82.min.css">
         
       
     
@@ -36,7 +36,7 @@
       
     
     
-    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#la-methode-agile" class="md-skip">
+        <a href="#initiatives-epics-et-user-stories" class="md-skip">
           Aller au contenu
         </a>
       
@@ -76,7 +76,7 @@
 
 <header class="md-header md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href="../.." title="Conception de système" class="md-header__button md-logo" aria-label="Conception de système" data-md-component="logo">
+    <a href="../../.." title="Conception de système" class="md-header__button md-logo" aria-label="Conception de système" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              La méthode Agile
+              Initiative, Epic et Users Stories
             
           </span>
         </div>
@@ -152,7 +152,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../.." class="md-tabs__link">
+    <a href="../../.." class="md-tabs__link">
       Accueil
     </a>
   </li>
@@ -160,6 +160,8 @@
       
         
   
+  
+    
   
 
 
@@ -172,7 +174,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../contenu_analyse_besoin/" class="md-tabs__link">
+      <a href="../../contenu_analyse_besoin/" class="md-tabs__link md-tabs__link--active">
         Notes de cours
       </a>
     </li>
@@ -189,18 +191,11 @@
   
   
   
-    
-
-  
-  
-  
     <li class="md-tabs__item">
-      <a href="../../exercices/03_presentation_cas/" class="md-tabs__link">
+      <a href="../../../exercices/ex_agile_workflow/" class="md-tabs__link">
         Exercices
       </a>
     </li>
-  
-
   
 
       
@@ -231,7 +226,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Conception de système" class="md-nav__button md-logo" aria-label="Conception de système" data-md-component="logo">
+    <a href="../../.." title="Conception de système" class="md-nav__button md-logo" aria-label="Conception de système" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -250,7 +245,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         Accueil
       </a>
     </li>
@@ -263,12 +258,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -317,7 +314,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contenu_analyse_besoin/" class="md-nav__link">
+      <a href="../../contenu_analyse_besoin/" class="md-nav__link">
         Contenu du rapport d'analyse des besoins
       </a>
     </li>
@@ -364,8 +361,210 @@
   
   
     <li class="md-nav__item">
-      <a href="../contenu_dossier_conception/" class="md-nav__link">
+      <a href="../../contenu_dossier_conception/" class="md-nav__link">
         Contenu du dossier de conception
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Méthode Agile et Scrum
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Méthode Agile et Scrum" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Méthode Agile et Scrum
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../methode_agile/" class="md-nav__link">
+        La méthode Agile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scrum/" class="md-nav__link">
+        Scrum
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scrum_artefact/" class="md-nav__link">
+        Les artefacts Scrum
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scrum_evenement/" class="md-nav__link">
+        Les événements
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scrum_role/" class="md-nav__link">
+        Les différents rôles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Initiative, Epic et Users Stories
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Initiative, Epic et Users Stories
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#initiatives" class="md-nav__link">
+    Initiatives
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epics" class="md-nav__link">
+    Epics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stories-ou-user-stories" class="md-nav__link">
+    Stories ou User stories
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../workflow/" class="md-nav__link">
+        Le flux de travail
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scrum_estimation/" class="md-nav__link">
+        Estimation
       </a>
     </li>
   
@@ -388,18 +587,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_2_3">
+        <label class="md-nav__link" for="__nav_2_4">
           UML
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="UML" data-md-level="2">
-        <label class="md-nav__title" for="__nav_2_3">
+        <label class="md-nav__title" for="__nav_2_4">
           <span class="md-nav__icon md-icon"></span>
           UML
         </label>
@@ -411,7 +610,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../UML/cas_utilisation/" class="md-nav__link">
+      <a href="../../UML/cas_utilisation/" class="md-nav__link">
         Cas d'utilisation
       </a>
     </li>
@@ -425,7 +624,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../UML/cas_utilisation_detail/" class="md-nav__link">
+      <a href="../../UML/cas_utilisation_detail/" class="md-nav__link">
         Description d'un cas d'utilisation
       </a>
     </li>
@@ -479,22 +678,36 @@
   
   
   
+    <li class="md-nav__item">
+      <a href="../../../exercices/ex_agile_workflow/" class="md-nav__link">
+        Workflow d'une gestion de projet Agile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
     
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_1">
+        <label class="md-nav__link" for="__nav_3_2">
           Cas #1
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Cas #1" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_1">
+        <label class="md-nav__title" for="__nav_3_2">
           <span class="md-nav__icon md-icon"></span>
           Cas #1
         </label>
@@ -506,7 +719,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../exercices/03_presentation_cas/" class="md-nav__link">
+      <a href="../../../exercices/03_presentation_cas/" class="md-nav__link">
         Présentation du cas
       </a>
     </li>
@@ -520,7 +733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../exercices/03_rapport_des_besoins/" class="md-nav__link">
+      <a href="../../../exercices/03_rapport_des_besoins/" class="md-nav__link">
         Rapport d'analyse des beoins (5%)
       </a>
     </li>
@@ -568,131 +781,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quest-ce-que-la-methode-agile" class="md-nav__link">
-    Qu'est-ce que la méthode Agile
+  <a href="#initiatives" class="md-nav__link">
+    Initiatives
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#avantages" class="md-nav__link">
-    Avantages
+  <a href="#epics" class="md-nav__link">
+    Epics
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#le-modele-scrum" class="md-nav__link">
-    Le modèle Scrum
-  </a>
-  
-    <nav class="md-nav" aria-label="Le modèle Scrum">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#lexique" class="md-nav__link">
-    Lexique
-  </a>
-  
-    <nav class="md-nav" aria-label="Lexique">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#carnet-de-production-backlog" class="md-nav__link">
-    Carnet de production (backlog)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#release" class="md-nav__link">
-    Release
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#sprint" class="md-nav__link">
-    Sprint
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#histoire-utilisateur-user-story" class="md-nav__link">
-    Histoire utilisateur (User story)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#tache" class="md-nav__link">
-    Tâche
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#story-point" class="md-nav__link">
-    Story point
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#composition-dune-equipe-scrum" class="md-nav__link">
-    Composition d'une équipe Scrum
-  </a>
-  
-    <nav class="md-nav" aria-label="Composition d'une équipe Scrum">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#le-proprietaire-du-produit-product-owner" class="md-nav__link">
-    Le propriétaire du produit (Product owner)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#le-gestionnaire-de-projet-scrum-master" class="md-nav__link">
-    Le gestionnaire de projet (Scrum master)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#lequipe-de-developpement" class="md-nav__link">
-    L'équipe de développement
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#scrum-etapes-par-etapes" class="md-nav__link">
-    Scrum étapes par étapes
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#source" class="md-nav__link">
-    Source
+  <a href="#stories-ou-user-stories" class="md-nav__link">
+    Stories ou User stories
   </a>
   
 </li>
@@ -710,49 +814,27 @@
               
                 
 
-<h1 id="la-methode-agile">La méthode Agile</h1>
-<h2 id="quest-ce-que-la-methode-agile">Qu'est-ce que la méthode Agile</h2>
-<p>C'est une méthode de gestion de projet qui mise sur la flexibilité et la souplesse. Généralement en gestion de projet il n'y a que peu d'interactions avec le client et le on soumet le produit une fois l'entièreté du projet terminé. En Agile, le produit est construit étape par étape et client est amené à évaluer le produit régulièrement. Ça nous permet de recibler le projet au besoin et de mieux coller aux besoins du client. </p>
-<h2 id="avantages">Avantages</h2>
+<h1 id="initiatives-epics-et-user-stories">Initiatives, epics et user stories</h1>
+<p>Le réalisation d'un projet passe par une bonne structure du travail à faire, des principaux objectifs aux petits détails. Les initiatives, epics et stories sont les outils utilisés par la méthode Scrum pour arriver à cette fin.</p>
+<p><img alt="Scrum_epic_stories.png" src="\img\scrum_epic_stories.png" /></p>
+<h2 id="initiatives">Initiatives</h2>
+<p>Le plus haut niveau de structure, les initiatives sont une collection d'epics qui représentent un objectif commun.</p>
+<p><strong>Exemple</strong></p>
 <ul>
-<li>Mieux gérer les priorités changeantes</li>
-<li>Meilleure communication entre les différents intervenants du projet</li>
-<li>Réduction du délais de production</li>
+<li>Réduire le volume de transactions effectuées au comptoir de service de la banque de 10%.</li>
 </ul>
-<h2 id="le-modele-scrum">Le modèle Scrum</h2>
-<p>Agile étant un ensemble de méthodes et de pratiques tirées du manifeste Agile, on peut l'utiliser et l'adapter de multiple façon. Dans le cadre du cours nous allons utiliser le modèle Scrum.</p>
-<h3 id="lexique">Lexique</h3>
-<h4 id="carnet-de-production-backlog">Carnet de production (backlog)</h4>
-<h4 id="release">Release</h4>
-<h4 id="sprint">Sprint</h4>
-<h4 id="histoire-utilisateur-user-story">Histoire utilisateur (User story)</h4>
-<h4 id="tache">Tâche</h4>
-<h4 id="story-point">Story point</h4>
-<h3 id="composition-dune-equipe-scrum">Composition d'une équipe Scrum</h3>
-<h4 id="le-proprietaire-du-produit-product-owner">Le propriétaire du produit (Product owner)</h4>
-<p>Il représente le client, c'est lui qui la responsabilité d'établir les priorités et de prendre les décisions relatives à l'orientation du projet. C'est aussi lui qui va rédiger et maintenir le backlog, une liste des tâches à accomplir en but de la réalisation du projet.</p>
-<h4 id="le-gestionnaire-de-projet-scrum-master">Le gestionnaire de projet (Scrum master)</h4>
-<p>Il est en charge de tenir les réunions et d'encadrer l'équipe de développement. Il va veiller au bon déroulement des sprints en s'assurant que chaque membre de l'équipe à toutes les ressources nécessaires à la réalisation des tâches qui leur sont attribuées.</p>
-<h4 id="lequipe-de-developpement">L'équipe de développement</h4>
-<p>Tous les autres individus qui sont inclus dans le projet, ils sont en charge et responsable de réaliser les différentes tâches relatives à la réalisation du projet.</p>
-<h3 id="scrum-etapes-par-etapes">Scrum étapes par étapes</h3>
+<h2 id="epics">Epics</h2>
+<p>Un épic est un ensemble de tâches qui peut être subdivisé parfois en plus petite tâche, les stories.</p>
+<p><strong>Exemple</strong></p>
 <ul>
-<li>Choisir le propriétaire du produit</li>
-<li>Former l'équipe de développement</li>
-<li>Nommer un gestionnaire de projet (scrum master)</li>
-<li>Créer le carnet de production (backlog)</li>
-<li>Estimer le carnet de production</li>
-<li>Planifier le sprint</li>
-<li>Faire des réunions quotidiennes</li>
-<li>Présenter l'évolution du projet au client</li>
-<li>Faire une réunion rétrospective</li>
-<li>Recommencer un nouveau sprint</li>
-<li>Livraison</li>
+<li>Permettre à un client d'effectuer des transactions à son compte bancaire depuis le guichet.</li>
 </ul>
-<h2 id="source">Source</h2>
+<h2 id="stories-ou-user-stories">Stories ou User stories</h2>
+<p>Une user story est une explication générale d'une fonctionnalité écrite du point de vue de l'utilisateur final. Elles sont désignées par une série de phrases, rédigées dans un langage simple, qui décrivent le résultat souhaité. Elles n'entrent pas dans le détail. Des sous-tâches convenues par l'équipe y sont ajoutées par la suite. La structure suivante est souvent utilisée pour décrire une stories : En tant que [personne], je [veux que] [afin que]. </p>
+<p><strong>Exemple</strong></p>
 <ul>
-<li>https://fr.wikipedia.org/wiki/Manifeste_agile</li>
-<li>https://gestionsucces.ca/cest-quoi-methode-agile-scrum/</li>
+<li>En tant qu'utilisateur du guichet, je veux pouvoir m'identifier afin de pouvoir utiliser le guichet.</li>
+<li>En tant qu'utilisateur du guichet, je veux pouvoir retirer de l'argent de mon compte.</li>
 </ul>
 
               
@@ -768,6 +850,41 @@
       </main>
       
         <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Pied de page">
+      
+        
+        <a href="../scrum_role/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Les différents rôles" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              Les différents rôles
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../workflow/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Le flux de travail" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              Le flux de travail
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -789,10 +906,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "translations": {"clipboard.copy": "Copier dans le presse-papier", "clipboard.copied": "Copi\u00e9 dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.term.missing": "Non trouv\u00e9", "select.version.title": "S\u00e9lectionner la version"}, "search": "../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top"], "translations": {"clipboard.copy": "Copier dans le presse-papier", "clipboard.copied": "Copi\u00e9 dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.term.missing": "Non trouv\u00e9", "select.version.title": "S\u00e9lectionner la version"}, "search": "../../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
     
     
-      <script src="../../assets/javascripts/bundle.960e086b.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.960e086b.min.js"></script>
       
     
   </body>
