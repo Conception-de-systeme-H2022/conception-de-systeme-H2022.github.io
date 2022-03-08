@@ -2,112 +2,122 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://example.com/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/exercices/03_dossier_de_conception/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/exercices/03_presentation_cas/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/exercices/03_rapport_des_besoins/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/exercices/ex04_maquettes/</loc>
+         <lastmod>2022-03-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://example.com/exercices/ex04_notes/</loc>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/exercices/ex_agile_workflow/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Analyse%20des%20besoins/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Cahier%20des%20charges%20fonctionnel/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Conception%20de%20syst%C3%A8me/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Dossier%20de%20conception/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Notes%20g%C3%A9n%C3%A9rales/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/contenu_analyse_besoin/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/contenu_dossier_conception/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Agile/methode_agile/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Agile/scrum/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Agile/scrum_artefact/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Agile/scrum_estimation/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Agile/scrum_evenement/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Agile/scrum_role/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Agile/scrum_stories/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/Agile/workflow/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/UML/cas_utilisation/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://example.com/notes_de_cours/UML/cas_utilisation_detail/</loc>
-         <lastmod>2022-03-01</lastmod>
+         <lastmod>2022-03-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
